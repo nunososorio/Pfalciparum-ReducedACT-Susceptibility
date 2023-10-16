@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Pull the docker image
+docker pull broadinstitute/gatk 
+
+# Run gatk from docker mounting your data folder inside the image
+docker run -v ~/pfcalling:/gatk/my_data -it broadinstitute/gatk:4.1.3.0
+
+# Create bwa index files (amb, pac, sa, bwt)
+bwa index my_data/Pf3D7_all_v3.fasta 
+
+# Create samtools index file (Pf3D7_all_v3.fasta.fai)
+samtools faidx my_data/Pf3D7_all_v3.fasta
+
+# Create picard dict (Pf3D7_all_v3.dict)
+gatk CreateSequenceDictionary -R Pf3D7_all_v3.fasta -O Pf3D7_all_v3.dict
+
+# Exit the docker image
+exit
+
+# Install anaconda
+wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+sh Anaconda3-2021.11-Linux-x86_64.sh
+
+# Restart terminal
+exec bash
+
+# Add conda channels in this order:
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+
+# Create/activate a conda environment and install nextflow
+conda create --name pf-env
+source activate pf-env
+
+# Install nextflow
+conda install nextflow=21.10.6
+
+# Run the nextflow script directly from github 
+nextflow run gencorefacility/variant-calling-pipeline-gatk4 -with-docker gencorefacility/variant-calling-pipeline-gatk4
+

@@ -1,0 +1,2 @@
+ID,# reads,aligned reads,% aligned,aligned bases,read length,% paired, %dup, mean insert size,# SNPs pre-bqsr,# SNPs filtered pre-bqsr,# SNPs post-bqsr,# SNPs filtered post-bqsr,average coverage
+hsog3catall,609426842,546964368,0.897506,72482145039,150,0.99764,0.193895,234.129656,79252,37843,79792,37956,2652.72
