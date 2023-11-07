@@ -17,7 +17,7 @@ We created the index files for the reference genome (BWA index, SAMtools index, 
 We used custom Python code (version 3.10.12) to analyze the SNPs present in the P. falciparum genome sequencing data. For drug resistance-related SNPs, we manually curated a list of genes from the literature review. For phylogeographic informative SNPs, we used the list from malaria-db GitHub repository, which contains SNPs that indicate the geographic origin of the parasite strains. We used scikit-allel (version 1.3.7) for efficient reading of the VCF file containing our sample's variant calls. We also used pandas (version 2.1.1) and numpy (version 1.25.2) for data manipulation and visualization.
 
 ### Analysis of the "Pf7 Dataset"
-We used the zarr version of the "Pf7 dataset" from the MalariaGEN P. falciparum Community Project, which can be accessed at ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7.zarr.zip. This dataset contains genotype calls on 10,145,661 SNPs and short indels across 20,864 samples from 33 countries, structured in an xarray format. Out of the 16,203 whole-genome sequencing samples that passed MalariaGEN's quality control measures, we selected a subset of 10,348 samples that had an Fws value of ≥ 0.95. The Fws values for all samples were retrieved from https://www.malariagen.net/sites/default/files/Pf7_fws.txt. We used custom Python code and xarray (version: 2023.8.0) to select the samples and specific coordinates of interest (chromosome and genomic position). The population annotation for each sample was obtained from https://www.malariagen.net/sites/default/files/Pf7_samples.txt. We calculated the percentage of the alternative allele for each population.
+We used the "Pf7 dataset" from the MalariaGEN P. falciparum Community Project, which can be accessed at ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7.zarr.zip or from the malariagen_data python library. This dataset contains genotype calls on 10,145,661 SNPs and short indels across 20,864 samples from 33 countries, structured in an xarray format. Out of the 16,203 whole-genome sequencing samples that passed MalariaGEN's quality control measures, we selected a subset of 10,348 samples that had an Fws value of ≥ 0.95. The Fws values for all samples were retrieved from https://www.malariagen.net/sites/default/files/Pf7_fws.txt. We used custom Python code to select the samples and specific coordinates of interest (chromosome and genomic position). The population annotation for each sample was obtained from https://www.malariagen.net/sites/default/files/Pf7_samples.txt. We calculated the percentage of the alternative allele for each population.
 
 ## Data
 - **GATK_ins**: This directory houses the input files required for the Genome Analysis Toolkit (GATK), a software package designed for the analysis of high-throughput sequencing data. It includes various formats of the reference genome (Pf3D7_all_v3), along with scripts and configuration files.
@@ -29,11 +29,47 @@ We used the zarr version of the "Pf7 dataset" from the MalariaGEN P. falciparum 
 ## How to reference
 If you use this in your project, please cite it as follows:
 
+BibTex format
 ```@article{casanova2023emergence,
   title={Emergence of Plasmodium Falciparum Strain with Reduced Susceptibility to Artemisinin-Based Combination Therapy Drugs: A Case Study from Mozambique},
   author={Casanova, Daniela and Baptista, Vitória and Costa, Magda and Freitas, Bruno José Ferreira and Pereira, Maria das Neves Imaculada and Calçada, Carla and Mota, Paula and Kythrich, Olena and Pereira, Maria Helena Jacinto Sarmento and Osório, Nuno S. and Veiga, Maria Isabel},
   year={2023},
   url={https://ssrn.com/abstract=4619416}}
+```
+RIS format
+```plaintext
+TY  - JOUR
+T1  - Emergence of Plasmodium Falciparum Strain with Reduced Susceptibility to Artemisinin-Based Combination Therapy Drugs: A Case Study from Mozambique
+AU  - Casanova, Daniela
+AU  - Baptista, Vitória
+AU  - Costa, Magda
+AU  - Freitas, Bruno José Ferreira
+AU  - Pereira, Maria das Neves Imaculada
+AU  - Calçada, Carla
+AU  - Mota, Paula
+AU  - Kythrich, Olena
+AU  - Pereira, Maria Helena Jacinto Sarmento
+AU  - Osório, Nuno S.
+AU  - Veiga, Maria Isabel
+PY  - 2023
+UR  - https://ssrn.com/abstract=4619416
+```
+Endnote format
+```%0 Journal Article
+%T Emergence of Plasmodium Falciparum Strain with Reduced Susceptibility to Artemisinin-Based Combination Therapy Drugs: A Case Study from Mozambique
+%A Casanova, Daniela
+%A Baptista, Vitória
+%A Costa, Magda
+%A Freitas, Bruno José Ferreira
+%A Pereira, Maria das Neves Imaculada
+%A Calçada, Carla
+%A Mota, Paula
+%A Kythrich, Olena
+%A Pereira, Maria Helena Jacinto Sarmento
+%A Osório, Nuno S.
+%A Veiga, Maria Isabel
+%D 2023
+%U https://ssrn.com/abstract=4619416
 ```
 
 ## Acknowledgements
