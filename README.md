@@ -29,7 +29,7 @@ We used the zarr version of the "Pf7 dataset" from the MalariaGEN P. falciparum 
 ## How to reference
 If you use this in your project, please cite it as follows:
 
-```Casanova, D., Baptista, V., Costa, M., Freitas, B., Pereira, M., Calçada, C., Mota, P., Kythri, O., Pereira, M.H.J.S., Osório, N.S. & Veiga, M.I. (2023). Emergence of Plasmodium Falciparum Strain with Reduced Susceptibility to Artemisinin-Based Combination Therapy Drugs: A Case Study from Mozambique. *Submitted*.");```
+```Casanova, Daniela and Baptista, Vitória and Costa, Magda and Freitas, Bruno José Ferreira and Pereira, Maria das Neves Imaculada and Calçada, Carla and Mota, Paula and Kythrich, Olena and Pereira, Maria Helena Jacinto Sarmento and Osório, Nuno S. and Veiga, Maria Isabel, Emergence of Plasmodium Falciparum Strain with Reduced Susceptibility to Artemisinin-Based Combination Therapy Drugs: A Case Study from Mozambique. Available at SSRN: https://ssrn.com/abstract=4619416 or http://dx.doi.org/10.2139/ssrn.4619416```
 
 ## Acknowledgements
 We extend our gratitude to all individuals who contributed directly or indirectly to this project, providing valuable insights and expertise.
