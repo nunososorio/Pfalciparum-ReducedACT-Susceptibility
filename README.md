@@ -33,8 +33,7 @@ If you use this in your project, please cite it as follows:
   title={Emergence of Plasmodium Falciparum Strain with Reduced Susceptibility to Artemisinin-Based Combination Therapy Drugs: A Case Study from Mozambique},
   author={Casanova, Daniela and Baptista, Vitória and Costa, Magda and Freitas, Bruno José Ferreira and Pereira, Maria das Neves Imaculada and Calçada, Carla and Mota, Paula and Kythrich, Olena and Pereira, Maria Helena Jacinto Sarmento and Osório, Nuno S. and Veiga, Maria Isabel},
   year={2023},
-  url={https://ssrn.com/abstract=4619416}
-}
+  url={https://ssrn.com/abstract=4619416}}
 ```
 
 ## Acknowledgements
