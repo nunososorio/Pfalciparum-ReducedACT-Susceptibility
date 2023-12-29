@@ -41,7 +41,7 @@ BibTex format
     publisher={Elsevier BV}, 
     author={Casanova, Daniela and Baptista, Vitoria and Costa, Magda and Freitas, Bruno and Pereira, Maria and Calcada, Carla and Mota, Paula and Kythrich, Olena and Pereira, Maria Helena Jacinto Sarmento and Osorio, Nuno S. and Veiga, M Isabel}, 
     year={2023}, 
-    month=dec
+    month=dec,
 }
 ```
 
