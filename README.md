@@ -31,11 +31,19 @@ If you use this in your project, please cite it as follows:
 
 BibTex format
 
-``` 
+```bibtex
+@article{Casanova_2023, 
+    title={Artemisinin resistance-associated gene mutations in Plasmodium falciparum: A case study of severe malaria from Mozambique}, 
+    ISSN={1477-8939}, 
+    url={http://dx.doi.org/10.1016/j.tmaid.2023.102684}, 
+    DOI={10.1016/j.tmaid.2023.102684}, 
+    journal={Travel Medicine and Infectious Disease}, 
+    publisher={Elsevier BV}, 
+    author={Casanova, Daniela and Baptista, Vitoria and Costa, Magda and Freitas, Bruno and Pereira, Maria and Calcada, Carla and Mota, Paula and Kythrich, Olena and Pereira, Maria Helena Jacinto Sarmento and Osorio, Nuno S. and Veiga, M Isabel}, 
+    year={2023}, 
+    month=dec
+}
 
-@article{Casanova_2023, title={Artemisinin resistance-associated gene mutations in Plasmodium falciparum: A case study of severe malaria from Mozambique}, ISSN={1477-8939}, url={http://dx.doi.org/10.1016/j.tmaid.2023.102684}, DOI={10.1016/j.tmaid.2023.102684}, journal={Travel Medicine and Infectious Disease}, publisher={Elsevier BV}, author={Casanova, Daniela and Baptista, Vitoria and Costa, Magda and Freitas, Bruno and Pereira, Maria and Calcada, Carla and Mota, Paula and Kythrich, Olena and Pereira, Maria Helena Jacinto Sarmento and Osorio, Nuno S. and Veiga, M Isabel}, year={2023}, month=dec}
-
-```
 
 RIS format
 ```plaintext
