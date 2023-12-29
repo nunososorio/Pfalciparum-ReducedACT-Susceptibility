@@ -39,7 +39,7 @@ BibTex format
     DOI={10.1016/j.tmaid.2023.102684}, 
     journal={Travel Medicine and Infectious Disease}, 
     publisher={Elsevier BV}, 
-    author={Casanova, Daniela and Baptista, Vitoria and Costa, Magda and Freitas, Bruno and Pereira, Maria and Calcada, Carla and Mota, Paula and Kythrich, Olena and Pereira, Maria Helena Jacinto Sarmento and Osorio, Nuno S. and Veiga, M Isabel}, 
+    author={Casanova, Daniela and Baptista, Vitória and Costa, Magda and Freitas, Bruno and Pereira, Maria and Calçada, Carla and Mota, Paula and Kythrich, Olena and Pereira, Maria Helena Jacinto Sarmento and Osório, Nuno S. and Veiga, M Isabel}, 
     year={2023}, 
     month={dec},
 }
