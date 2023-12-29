@@ -45,40 +45,9 @@ BibTex format
 }
 ```
 
-RIS format
-```plaintext
-TY  - JOUR
-T1  - Emergence of Plasmodium Falciparum Strain with Reduced Susceptibility to Artemisinin-Based Combination Therapy Drugs: A Case Study from Mozambique
-AU  - Casanova, Daniela
-AU  - Baptista, Vitória
-AU  - Costa, Magda
-AU  - Freitas, Bruno José Ferreira
-AU  - Pereira, Maria das Neves Imaculada
-AU  - Calçada, Carla
-AU  - Mota, Paula
-AU  - Kythrich, Olena
-AU  - Pereira, Maria Helena Jacinto Sarmento
-AU  - Osório, Nuno S.
-AU  - Veiga, Maria Isabel
-PY  - 2023
-UR  - https://ssrn.com/abstract=4619416
+APA format
 ```
-Endnote format
-```%0 Journal Article
-%T Emergence of Plasmodium Falciparum Strain with Reduced Susceptibility to Artemisinin-Based Combination Therapy Drugs: A Case Study from Mozambique
-%A Casanova, Daniela
-%A Baptista, Vitória
-%A Costa, Magda
-%A Freitas, Bruno José Ferreira
-%A Pereira, Maria das Neves Imaculada
-%A Calçada, Carla
-%A Mota, Paula
-%A Kythrich, Olena
-%A Pereira, Maria Helena Jacinto Sarmento
-%A Osório, Nuno S.
-%A Veiga, Maria Isabel
-%D 2023
-%U https://ssrn.com/abstract=4619416
+Casanova, D., Baptista, V., Costa, M., Freitas, B., Pereira, M., ... Osório, N. S. & Veiga, M. I. (2023). Artemisinin resistance-associated gene mutations in Plasmodium falciparum: A case study of severe malaria from Mozambique. Travel Medicine and Infectious Disease, 102684. doi:10.1016/j.tmaid.2023.102684
 ```
 
 ## Acknowledgements
