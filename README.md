@@ -50,6 +50,7 @@ APA format
 Casanova, D., Baptista, V., Costa, M., Freitas, B., Pereira, M., ... Osório, N. S. & Veiga, M. I. (2023). Artemisinin resistance-associated gene mutations in Plasmodium falciparum: A case study of severe malaria from Mozambique. Travel Medicine and Infectious Disease, 102684. doi:10.1016/j.tmaid.2023.102684
 ```
 
+## Link for the publication 
 [![Link for the publication](https://judithlasker.files.wordpress.com/2017/09/screen-shot-2017-09-10-at-12-11-44-pm.png)](http://dx.doi.org/10.1016/j.tmaid.2023.102684)
 
 ## Acknowledgements
